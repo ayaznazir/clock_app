@@ -16,6 +16,8 @@ class _MainPageState extends State<MainPage> {
   int _selectedIndex = 0;
   final PageController _pageController = PageController();
   bool isLoading = false;
+  bool isLoading1 = false;
+  bool isLoading2 = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
