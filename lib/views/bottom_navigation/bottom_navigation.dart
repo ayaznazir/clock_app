@@ -18,6 +18,8 @@ class _MainPageState extends State<MainPage> {
   bool isLoading = false;
   bool isLoading1 = false;
   bool isLoading2 = false;
+  bool sddd = false;
+  bool ddssd = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
